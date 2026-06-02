@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "El mercado de la vivienda en Salamanca",
     "section": "",
-    "text": "Este sitio analiza la evolución del mercado inmobiliario en Salamanca usando datos del INE.\n\n\n\nPrecios de vivienda\nHipotecas\nCompraventas\nCompras al contado"
+    "text": "Este sitio analiza la evolución del mercado inmobiliario en Salamanca usando datos del INE.\n\n\n\nPrecios de vivienda\nHipotecas\nCompraventas\nCompras al contado\n\n\n\n\n\n\n                                                \n\n\n\n\n                                                \n\n\n\nimport plotly.express as px\ndf_salamanca = df_salamanca.sort_values(“fecha”)"
   },
   {
     "objectID": "index.html#secciones",
@@ -19,6 +19,13 @@
     "title": "El mercado de la vivienda en Salamanca",
     "section": "",
     "text": "Precios de vivienda\nHipotecas\nCompraventas\nCompras al contado"
+  },
+  {
+    "objectID": "index.html#compraventas-de-vivienda-ine",
+    "href": "index.html#compraventas-de-vivienda-ine",
+    "title": "El mercado de la vivienda en Salamanca",
+    "section": "",
+    "text": "import plotly.express as px\ndf_salamanca = df_salamanca.sort_values(“fecha”)"
   },
   {
     "objectID": "vivienda-salamanca.html",
