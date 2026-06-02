@@ -1,0 +1,14 @@
+---
+title: "El mercado de la vivienda en Salamanca"
+---
+
+# Observatorio de vivienda
+
+Este sitio analiza la evolución del mercado inmobiliario en Salamanca usando datos del INE.
+
+## Secciones
+
+- Precios de vivienda
+- Hipotecas
+- Compraventas
+- Compras al contado
