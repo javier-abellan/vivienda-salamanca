@@ -25,7 +25,7 @@
     "href": "index.html#compraventas-de-vivienda-ine",
     "title": "Observatorio Salmantino de la Vivienda",
     "section": "Compraventas de vivienda (INE)",
-    "text": "Compraventas de vivienda (INE)\n\n\n                                                \n\n\n\n\n                                                \n\n\n\nimport pandas as pd import plotly.graph_objects as go"
+    "text": "Compraventas de vivienda (INE)"
   },
   {
     "objectID": "vivienda-salamanca.html",
