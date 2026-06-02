@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "El mercado de la vivienda en Salamanca",
     "section": "",
-    "text": "Este sitio analiza la evolución del mercado inmobiliario en Salamanca usando datos del INE.\n\n\n\nPrecios de vivienda\nHipotecas\nCompraventas\nCompras al contado"
+    "text": "Este sitio analiza la evolución del mercado inmobiliario en Salamanca usando datos del INE.\n\n\n\nPrecios de vivienda\nHipotecas\nCompraventas\nCompras al contado\n\n\n\n\n\n\nimport pandas as pd\n\ndf = pd.read_csv(\"data/compraventas_ine_6149.csv\")\n\ndf[\"fecha\"] = pd.to_datetime(df[\"fecha\"])\n\n# Agregamos total nacional\ndf_nacional = df.groupby(\"fecha\")[\"valor\"].sum().reset_index()\n\ndf_nacional.head()\n\n\n\n\n\n\n\n\nfecha\nvalor\n\n\n\n\n0\n2006-12-31 23:00:00\n251139.0\n\n\n1\n2007-01-31 23:00:00\n216861.0\n\n\n2\n2007-02-28 23:00:00\n222069.0\n\n\n3\n2007-03-31 22:00:00\n180096.0\n\n\n4\n2007-04-30 22:00:00\n227649.0\n\n\n\n\n\n\n\n\n```markdown id=“chart”\n\nimport matplotlib.pyplot as plt\n\nplt.figure()\nplt.plot(df_nacional[\"fecha\"], df_nacional[\"valor\"])\nplt.title(\"Compraventas de vivienda en España (INE 6149)\")\nplt.xlabel(\"Fecha\")\nplt.ylabel(\"Número de compraventas\")\nplt.show()"
   },
   {
     "objectID": "index.html#secciones",
@@ -19,6 +19,13 @@
     "title": "El mercado de la vivienda en Salamanca",
     "section": "",
     "text": "Precios de vivienda\nHipotecas\nCompraventas\nCompras al contado"
+  },
+  {
+    "objectID": "index.html#compraventas-de-vivienda-ine",
+    "href": "index.html#compraventas-de-vivienda-ine",
+    "title": "El mercado de la vivienda en Salamanca",
+    "section": "",
+    "text": "import pandas as pd\n\ndf = pd.read_csv(\"data/compraventas_ine_6149.csv\")\n\ndf[\"fecha\"] = pd.to_datetime(df[\"fecha\"])\n\n# Agregamos total nacional\ndf_nacional = df.groupby(\"fecha\")[\"valor\"].sum().reset_index()\n\ndf_nacional.head()\n\n\n\n\n\n\n\n\nfecha\nvalor\n\n\n\n\n0\n2006-12-31 23:00:00\n251139.0\n\n\n1\n2007-01-31 23:00:00\n216861.0\n\n\n2\n2007-02-28 23:00:00\n222069.0\n\n\n3\n2007-03-31 22:00:00\n180096.0\n\n\n4\n2007-04-30 22:00:00\n227649.0\n\n\n\n\n\n\n\n\n```markdown id=“chart”\n\nimport matplotlib.pyplot as plt\n\nplt.figure()\nplt.plot(df_nacional[\"fecha\"], df_nacional[\"valor\"])\nplt.title(\"Compraventas de vivienda en España (INE 6149)\")\nplt.xlabel(\"Fecha\")\nplt.ylabel(\"Número de compraventas\")\nplt.show()"
   },
   {
     "objectID": "vivienda-salamanca.html",
