@@ -9,23 +9,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Observatorio del mercado de la vivienda en Salamanca",
+    "title": "Observatorio Salmantino de la Vivienda",
     "section": "",
     "text": "Precios de vivienda\nCompraventas\nHipotecas\nCompras al contado"
   },
   {
     "objectID": "index.html#secciones",
     "href": "index.html#secciones",
-    "title": "Observatorio del mercado de la vivienda en Salamanca",
+    "title": "Observatorio Salmantino de la Vivienda",
     "section": "",
     "text": "Precios de vivienda\nCompraventas\nHipotecas\nCompras al contado"
   },
   {
     "objectID": "index.html#compraventas-de-vivienda-ine",
     "href": "index.html#compraventas-de-vivienda-ine",
-    "title": "Observatorio del mercado de la vivienda en Salamanca",
+    "title": "Observatorio Salmantino de la Vivienda",
     "section": "Compraventas de vivienda (INE)",
-    "text": "Compraventas de vivienda (INE)"
+    "text": "Compraventas de vivienda (INE)\n\n\n                                                \n\n\n\n\n                                                \n\n\n\nimport pandas as pd import plotly.graph_objects as go"
   },
   {
     "objectID": "vivienda-salamanca.html",
